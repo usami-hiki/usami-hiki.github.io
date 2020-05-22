@@ -1,0 +1,231 @@
+/* css file for arknight github calculator */
+body{
+    background-color: rgb(54, 54, 54);
+}
+@media screen and (max-width:768px) {
+    body>nav {
+        min-height: 60px;
+        height: auto;
+        padding-bottom: auto!important;
+        padding-top: 5px!important;
+    }
+    .dropdown{
+        text-align: center;
+        width:100%;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus,
+input[type='range'].active.focus,
+input[type='range'].active:focus,
+input[type='range'].focus,
+input[type='range'].focus:active,
+input[type='range']:active:focus,
+input[type='range']:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+input[type='text'] {
+    height:35px;
+}
+
+.ak-center{
+    text-align: center;
+}
+
+.ak-active {
+    color:#ddd;
+}
+.ak-browse {
+    width: 250%;
+    font-size: 13px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.ak-bg{
+    color:#ddd;
+    background-color: #222;
+}
+.ak-back{
+    background-color: #66666666;
+}
+.ak-mid{
+    background-color: #DDDDDD99;
+}
+.ak-nopadding{
+    padding: 0px;
+}
+.ak-nomargin{
+    margin: 0px;
+}
+.ak-div{
+    padding:10px;
+}
+
+.ak-table{
+    background-color: rgb(54, 54, 54) ;
+    color:#ddd;
+    border:none
+}
+
+.ak-thead th {
+    color: #fff;
+    background-color: #1b1b1b;
+    /* border-color: #111111; */
+    border-bottom:0px!important;
+    border:none;
+  }
+.ak-table tr{
+    background-color: rgb(58, 58, 58);
+    border:none;
+}
+.ak-table td{
+    border:none;
+}
+.ak-table tr:hover{
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+.ak-table-striped tr:nth-child(odd){
+    background-color: rgb(54, 54, 54);
+}
+.ak-table-striped tr:hover:nth-child(even){
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+.ak-btn{
+    /* color:#DDD; */
+    border-radius: 0px;
+}
+
+.ak-sm-btn{
+    padding: 2px 4px !important;
+    color: rgb(233, 233, 233);
+    background: rgb(27, 27, 27);
+    border-radius: 2px !important;
+}
+
+.ak-btn-non{
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+.ak-btn-bg{
+    background:#666
+}
+.ak-disable{
+    pointer-events: none;
+    cursor: not-allowed;
+    color: darkgrey;
+}
+
+.ak-btn-header{
+    font-size: 12px;
+    font-weight:700;
+    vertical-align: text-bottom;
+    padding:0px;
+    /* margin:auto; */
+    padding-top:5px;
+    padding-bottom:5px;
+    color:#FFFFFFff;
+    text-align: center;
+    background: #11111199;
+    border-radius: 0px;
+    text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
+    /* box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.4); */
+}
+
+.tooltip{
+    pointer-events: none;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ak-subtitle{
+    color:white;
+    position: absolute;
+    margin-top:-10px;
+    margin-left: -20px;
+    font-size: 10px
+}
+
+.ak-title{
+    color:#DDD;
+    position: absolute;
+    margin-top:-5px;
+    margin-left: -5px;
+    font-size: 14px;
+    padding:4px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    border-radius: 2px;
+    /* text-shadow: 0px 0px 2px #2f2f2f ; */
+    background-color: #2f2f2f;
+}
+.ak-sm{
+    margin:2px;
+    padding:2px;
+    border-radius: 2px;
+}

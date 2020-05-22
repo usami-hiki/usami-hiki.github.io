@@ -1,0 +1,489 @@
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#222222ff">
+    <title translate-id="web-title">Arknights Operator Details</title>
+    <link rel="manifest" href="./manifest.json" crossorigin="use-credentials">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ak.css">
+    <link rel="stylesheet" href="css/akMaterial.css">
+    <link rel="stylesheet" href="css/akchardetail.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/spine-widget.js"></script>
+    <script src="js/spine-skeleton-binary.js"></script>
+    <!-- site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-159317757-1"></script></head><body>/
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-159317757-1');
+
+    </script>
+    <script>
+            $(function(){
+              $('#nav-placeholder').load('nav.html');
+            });
+     </script>
+
+
+    <!-- style=' background-image: url(./img/extra/bg1.png)' -->
+    <button class="btn btn-sm btn-primary goToTag" style="position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000" id="to-tag" type="button">^ </button>
+    <nav id="aknav" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
+    <img src="./img/factions/logo_rhodes.png" width="40" height="40" style="transform:scale(1.2,1.2)translate(-8px,1px)" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="index.html" translate-id="topbar-1">Arknights Toolbox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="展开">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+
+            <li class="nav-item ">
+                <a class="nav-link " href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="ak-subtitle ak-disable">Calculator</div>
+
+                    <div class="ak-disable ">Menu</div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="akhr.html">Recruitment</a>
+
+                <a class="dropdown-item" href="aklevel.html">Leveling</a>
+
+                <a class="dropdown-item" href="akevolve.html">Material</a>
+
+                <a class="dropdown-item" href="akmatuses.html">Material Total Usage</a>
+                </div>
+            </li><li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="ak-subtitle ak-disable">Information</div>
+
+                    <div class="ak-disable ">Operator</div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="akhrchars.html">Operator</a>
+
+                <a class="dropdown-item" href="akenemy.html">Enemy</a>
+
+                <a class="dropdown-item" href="akriic.html">Infrastructure Skill</a>
+
+                <a class="dropdown-item" href="akhrcompare2.html">Comparing (WIP)</a>
+
+                <a class="dropdown-item" href="akstage.html">Stage (WIP)</a>
+                </div>
+            </li><li class="nav-item ">
+                <a class="nav-link " href="akhrelite.html">Elite Materials</a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link " href="akguide.html">Guide</a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link " href="akstory.html">Mission Story</a>
+            </li>
+
+            <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="ak-subtitle ak-disable">Extra</div>
+
+                    <div class="ak-disable ">Menu</div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="aklinker.html">bilibili Linker</a>
+
+                <a class="dropdown-item" href="akgallery.html">CG Gallery</a>
+                </div>
+
+
+                </li></ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ace-donatemodal"><img height="20px" style="border:0px;height:20px;margin-top:-5px" src="./img/items/GOLD.png">  Donate</button>
+                </li>
+
+                <li class="nav-item dropdown" id="navitemRegion">
+                        <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <div class="ak-subtitle ak-disable" translate-id="language-1">Server</div>
+                                <div class="ak-disable" id="display-reg">JP</div>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item reg unselectable selected" onclick="regDropdown($(this))" value="cn">Chinese</a>
+                            <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="en">English</a>
+                            <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="jp">Japanese</a>
+                            <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="kr">Korean</a>
+                        </div>
+                    </li>
+                <li class="nav-item dropdown" id="navitemLanguage">
+                    <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <div class="ak-subtitle ak-disable" translate-id="language-2">Language</div>
+                            <div class="ak-disable" id="display-lang">Japanese</div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item lang unselectable selected" onclick="langDropdown($(this))" value="en">English</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="acedonate">
+    <div class="modal fade " id="ace-donatemodal">
+        <div class="modal-dialog modal-dialog-centered modal">
+            <div class="modal-content" style="background:#444">
+
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+                <h4 class="modal-title"></h4>
+
+            </div> -->
+
+            <!-- Modal body -->
+            <div class="modal-body acedonate-body">
+            	<div style="text-align:left; margin: 5px;">
+            		<h5>Help us maintain the website</h5>
+            		<p>We made this website on our spare time and it took us quite some time to get into what it is now. Currently we do have some list of new features that we want to implement, but the progress is slow because we only work on it when we have the time and motivation to do it.</p>
+            		<p>Aside from implementing a new feature, fixing bugs, and receiving feedbacks, we prioritizes updating our database whenever the game got updated.
+            		</p><p>Your donation will definitely help on improving the website, keeping it updated, and motivating us to keep doing what we're doing and this is completely optional for you to do.</p>
+            	</div>
+            	<div class="row" style="padding: 10px; max-height: 160px; background-color: #333;">
+            		<div class="col-md-6">
+	            		<a class="btn btn-info" style="padding:15px; width: 100%; height: 100%" href="https://ko-fi.com/aceship" target="_blank">
+	            			<b style=" color: white;">Donate on Ko-fi</b>
+	            			<div style="display:block; margin-top: 20px;">
+	            				<img height="50" src="https://theme.zdassets.com/theme_assets/2141020/171bb773b32c4a72bcc2edfee4d01cbc00d8a004.png">
+	            				<img height="30" style="filter: brightness(100)" src="https://pngimg.com/uploads/paypal/paypal_PNG4.png">
+	            			</div>
+	            		</a>
+            		</div>
+            		<div class="col-md-6">
+	            		<a class="btn btn-info" style="padding:15px 10px 10px 10px; width: 100%;" href="https://trakteer.id/Aceship123" target="_blank">
+	            			<b style=" color: white;">Donate on Trakteer</b>
+	            			<div style="display:block;">
+	            				<div style="background-color: #bf202f; display: inline-block; border-radius: 6px; padding: 5px 10px; vertical-align: middle;">
+	            					<div style="background-image: url('https://trakteer.id/images/mix/navbar-logo-lite-white-beta.png'); background-size: cover; height: 43px; width: 28px; background-position: 0% 0%;"></div>
+	            				</div>
+
+	            				<div style="display: inline-block; padding: 5px 10px; position: relative; width: 100px; height: 90px; vertical-align: middle;">
+	            					<div style="filter: brightness(100); height: 110px; width: 100px; left: 0px; top: -10px; position: absolute; background-position: 0% 0%; background-size: cover; background-image: url('./img/extra/gopay.png');"></div>
+	            				</div>
+	            			</div>
+	            		</a>
+            		</div>
+            	</div>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer" style="border-top: 1px solid #2f2f2f">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="padding-bottom:40px;"></div>
+    <!-- <div class='warning-sign'style='position: absolute;z-index: 999999;background:#aaa;top:100px;left:50%;width:500px;height:200px;margin-left:-250px;text-align:center; vertical-align:center'>aaaaaaaaaaaaaaaaaaaaa</div> -->
+
+    <div class="modal fade" id="opzoom" style="overflow-x: hidden;overflow-y: hidden;">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="background:#444">
+
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        -->
+            <!-- Modal body -->
+            <div class="modal-body" style="padding:0px;margin:0px;min-height:88vh;max-height: 88vh;display: flex">
+                <img id="charazoom" style="margin-left:auto;width:100%;height:100%; display: block;object-fit: contain;" src="img/characters/char_010_chen_1.png">
+            </div>
+
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer" style="border-top: 1px solid #2f2f2f;height: 90px;padding:0px">
+
+            </div> -->
+            <div style="height: 70px;"></div>
+            <div style="display:inline-flex;position: absolute;z-index: 150000;width:100%;bottom:0px;background: #444;padding:10px;border-radius: 2px;justify-content: right;">
+                <input type="range" class="statlevelInput" value="100" min="50" max="1000" id="charazoomslider" oninput="Zoomchara(this)" style="margin-top:15px;width:80%;">
+                <input class="form-control" id="charazoominput" onchange="Zoomchara(this)" style="line-height:1.1;width:60px;padding:2px;margin:9.5px 2px;text-align: center;background:#999;color:#222;border:none" type="text" value="100">
+                <div id="charazoom-button"><button class="btn ak-c-black btn-dark" style="margin:2px;padding:2px; height: 50px; width: 50px;" onclick="ChangeZoomChara('char_010_chen_1')"><img src="img/ui/elite/0-s.png"></button><button class="btn ak-c-black btn-dark" style="margin:2px;padding:2px; height: 50px; width: 50px;" onclick="ChangeZoomChara('char_010_chen_1')"><img src="img/ui/elite/1-s.png"></button><button class="btn ak-c-black btn-dark" style="margin:2px;padding:2px; height: 50px; width: 50px;" onclick="ChangeZoomChara('char_010_chen_2')"><img src="img/ui/elite/2-s.png"></button><button class="btn ak-c-black btn-dark" style="margin:2px;padding:2px; height: 50px; width: 50px;" onclick="ChangeZoomChara('char_010_chen_nian%232')">
+                    <img style="max-width:40px;max-height:40px;" src="img/skingroups/2020%23nian.png">
+                    </button></div>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="opstory">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="background:#444">
+
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+                <h4 class="modal-title"></h4>
+
+            </div> -->
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" style="position:absolute;top:5px;right: 15px;color:#fff">×</button>
+                <div class="story-content" id="opstorycontent"><div class="row storyrow"><div class="col-12 col-sm-6 top-buffer storysplit">
+                        <table class="story-table"><tbody><tr><th colspan="2">Recruitment Contract</th>
+                        </tr><tr>
+                            <td>She's terrifying when she's mad, but you don't want to mess with her even when she's not.</td>
+                        </tr>
+                        <tr>
+                            <td>Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island to fulfill the obligations outlined in her contract.</td>
+                        </tr></tbody></table>
+                        </div><div class="col-12 col-sm-6 top-buffer storysplit">
+                    <table class="story-table"><tbody><tr><th colspan="2">Token</th>
+                    </tr><tr>
+                        <td>This thing has been sealed for a long time. She didn't forget it. It's just that she can't bear to touch that rusty point again. Perhaps someday it will burn again.</td>
+                    </tr>
+                    <tr>
+                        <td>Used to improve the Potential of Ch'en.</td>
+                    </tr>
+                    </tbody></table>
+                    </div><div class="col-12 col-sm-6 top-buffer storysplit">
+                        <table class="story-table"><tbody><tr><th colspan="2">Basic File</th></tr><tr><td>Code Name</td><td> Ch'en </td></tr><tr><td>Gender</td><td> Female </td></tr><tr><td>Combat Experience</td><td> 4 years </td></tr><tr><td>Place of Birth</td><td> Lungmen </td></tr><tr><td>Date of Birth</td><td> Jul. 7 </td></tr><tr><td>Race</td><td> Lung </td></tr><tr><td>Height</td><td> 1.68m </td></tr><tr><td>Infection Status</td><td> </td></tr><tr><td colspan="2">Unknown.</td> </tr></tbody></table>
+                        </div><div class="col-12 col-sm-6 top-buffer storysplit">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Physical Exam</th>
+                    </tr><tr><td>Physical Strength</td> <td> Excellent</td></tr><tr><td>Mobility</td> <td> Standard l</td></tr><tr><td>Physical Resilience</td> <td> Excellent </td></tr><tr><td>Tactical Acumen</td> <td> Excellent </td></tr><tr><td>Combat Skill</td> <td> Outstanding </td></tr><tr><td>Originium Arts Assimilation</td> <td> Standard</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Profile</th>
+                    </tr><tr><td>Ch'en, head of the Lungmen Guard Department's Special Inspection Unit, graduated from the Royal Victorian Guard School with superb grades and outstanding achievements. During her time with the Department, she cracked down on crime, fought violent offenders, tracked down armed fugitives, and brought down international criminals. <br>Now works at Rhodes Island, providing on-site tactical command.</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Clinical Analysis</th>
+                    </tr><tr><td>[At the request of the Lungmen Guard Department, this information will not be made public.] <br>She did come in for a physical examination, but her files have been confiscated. I have no way to get them. Why? I was told not to. <br>--Medic Operator R.T.</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Archive File 1</th>
+                    </tr><tr><td>[Originium Overview] <br>Ch'en has never been seen using Originium, which led many to suspect she didn't have a talent for it. Indeed, she did struggle to control her Originium ability, blasting the occasional hole in a wall, blowing files everywhere, and causing more collateral damage than might otherwise be acceptable. Using Originium for too long tires her out. After discussion with the tech staff, it was decided Ch'en lacked the necessary conduit to control her Originium power. Without one, Ch'en could never master it. <br><br>I saw her test results. The thinner the staff, the better she is at assimilation. But what's the point? Maybe if you had something shaped like a sword, it might work for her. But who would want to use it for that? A sword is for slashing! We're going to need a lot more work on this.. <br>--Caster D</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Archive File 2</th>
+                    </tr><tr><td>Ch'en graduated from the Royal Victorian Guard School with straight A's in all mandatory subjects and glowing recommendations from her professors. After returning to Lungmen, she almost immediately joined the Guard Department. <br>No one knows anything about her life prior to enrolling in the L.G.D. School, and no one questions her ability, dedication, or hatred of her enemies. Police officers working with Ch'en often complained about her demeanor--too strict and too harsh. Everyone thought that this harsh character would disappear in the struggle for power, and she would soften up after being worn down by endless incidents. <br>Surprisingly, both crime and casualty rates have declined in the past two years, and the younger generation of officers began being promoted faster and more substantively. Ch'en was promoted and joined one of the most important teams in the Department, the Special Inspection Unit. <br>Members of this unit are generally not allowed to serve more than two years - to protect their lives and reduce their stress. Perhaps this position isn't suitable to serve for a long time: old inspectors' careers always seem to end with heroic sacrifice. <br>Ch'en did not retreat. She doesn't even know how to back down. <br>She became the fastest promoted officer in the history of the Lungmen police force, and also the youngest Special Inspector in the Department. Those who ridiculed her were impressed by her perseverance. After all, planning for the future is one thing. Planning every day is another. <br>Why was she so hard? Why live life this way? No one can could understand. <br>There are often small pieces of paper that have been ripped apart or angrily crumbled in Ch'en's trash bin.</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Archive File 3</th>
+                    </tr><tr><td>Of course, Ch'en is not a total workaholic. <br>Officers who know her say she is almost perfect. She operates efficiently, scheduling her time wisely such that she can exercise and tend to her hobbies. Every minute of her day is filled with meaningful activities. <br>And yet this worries her colleagues even more. It is common for her to cancel her days off and to work overtime on into the night. It's also common for a mountain of paperwork to disappear one day only for her to get called into an urgent meeting when she is about to go see a movie. <br>She is mechanically efficient. People naturally ask her, <br>"Are you stressed?" <br>"No reason to be." <br>No one has ever gotten a different answer out of her. <br>Ch'en lives this way every day, always doing what she can for Lungmen and honing her skills. She is always getting better, and the sky is the limit. <br>But what exactly is she pursuing? <br>Even her friends wouldn't say they understand Ch'en. She tries to do it all.</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Archive File 4</th>
+                    </tr><tr><td>[Classified Log] <br>"Your father has cut ties with you. He doesn't have anything to do with me, either, but neither of us care. <br>Do you want to leave? <br>You can, but I have something to tell you before you go. <br>I actually know who that old person is.<br>But I forget a lot of things -- like that night you and your friend had a little adventure. It's easy to forget. <br>It's my fault. I made an unforgivable mistake. <br>I will forget. <br>If you want to leave, I will send you to a city that is safe, rich, and stable. You would have a peaceful life there. <br>And you will say goodbye to everything here. The home you hate, the street you hate, the people you don't like. <br>It's just that you will lose your opportunity to know the truth. The facts are dangerous, and I can't have innocent people getting involved. <br>Angry? You're angry with me? You hate me?<br>Well, of course. Let me be who you hate. Hate a powerless person like me. <br><br>Here is your other choice. <br>You choose to stay. <br>From now on, I would train you. You would be free to hate me and even try to kill me, if you want. <br>How could you not? Of course you can. You would be a natural. <br>Your body and mind both belong to you. I can teach you right from wrong, and if you do well, you should work with Originium on your own. <br>Don't forget it, just do it. <br>Being able to do things right is worth the hard work. Having to fix a mistake could be fatal.<br>Even I don't know what is in store for us in the city. It is full of opportunity. Anything can happen. <br>It doesn't matter if you don't understand now, you will later. <br>Hey, I still remember. I remember that last thing you said. <br>Do you persist, or do you give up? <br>Choose." <br><br>...Simulation over... <br>Returning to main interface...</td></tr></tbody></table>
+                    </div>
+                    <div class="col-12 top-buffer">
+                    <table class="story-table">
+                    <tbody><tr><th colspan="2">Promotion Record</th>
+                    </tr><tr><td>She'll be back.</td></tr></tbody></table>
+                    </div></div></div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer" style="border-top: 1px solid #2f2f2f">
+                <!-- <div id="charazoom-button"></div> -->
+                <div id="opstorycredits" style="width:100%;color:#fff"><div class="btn-infoleft">Trust Translation</div><div class="btn-inforight">Official EN Arknight</div></div>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="opaudio">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background:#444">
+
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+                <h4 class="modal-title"></h4>
+
+            </div> -->
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" style="position:absolute;top:5px;right: 15px;color:#fff">×</button>
+                <div class="story-content" id="opaudiocontent"></div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer" style="border-top: 1px solid #2f2f2f">
+                <!-- <div id="charazoom-button"></div> -->
+                <div>
+                    <div id="opaudiotranslator" style="width:100%;color:#fff"></div>
+                    <div style="margin:2px"></div>
+                    <div id="opaudioproofreader" style="width:100%;color:#fff"></div>
+                </div>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 col-sm-12 " style="margin:auto;max-width:1000px;padding:0">
+        <div class="row">
+            <div class="col-12 ak-bg ak-shadow mt-3" style="padding:15px;padding-top:0%;padding-bottom:0;border-radius:0px" role="alert">
+            <div class="row" style="padding:0;padding-bottom: 4px">
+                    <div class="col-12 btn btn-sm ak-btn ak-c-black ak-shadow-small ak-disable" style="padding:0" translate-id="operator-select">Select an operator :</div>
+            </div>
+            <div class="row">
+                <div id="lefthandtoggle" style="position:absolute;top:-15px;left:20px;background:#222;padding:4px;cursor: pointer;border-radius: 3px">Left Hand</div>
+                <div class="col-md-7">
+                    <input readonly="" type="text" name="opID" id="opID" style="display: none;">
+                    <div class="row">
+                            <input class="form-control col-5" style="margin: 5px 2px;margin-left: 5px;border-radius: unset;" type="text" autocomplete="off" name="opname" id="opname" onkeyup="populateOperators(this)" placeholder="Type in operator name . .">
+                            <button class="col-3 btn btn-sm ak-btn ak-rare-bg browse-btn" style="margin:2px 2px;padding: 5px" onclick="populateOperators('Browse')" type="button" id="opBrowseButton2">Show All</button>
+                            <button class="col-3 btn btn-sm ak-btn ak-rare-bg browse-btn" style="margin:2px 2px;padding: 5px" type="button" id="opBrowseButton">Browse Grid</button>
+                    </div>
+                    <div style="position: relative;"><ul class="ak-c-black ak-browse" id="operatorsResult" style="display:none; position: absolute; z-index: 600; list-style-type: none; padding: 5px;color:#222"></ul></div>
+                </div>
+            </div>
+            <div class="row">
+                    <button class="btn btn-danger col-12 align-self-center ak-btn text-center" style="padding:1px; z-index: 0; font-weight: 550" onclick="clickBtnClear()"><span translate-id="selector-clear">Clear</span> <span id="count-tag"> </span></button>
+            </div>
+        </div>
+
+        <div class="chara-detail-container" id="chara-detail-container" style="">
+            <div class="row">
+                <div id="chara-pic" class="col-md-12 absolute bottom-layer ak-shadow" style="overflow: hidden;">
+                    <img class="background" src="img/ui/chara/bg.png">
+                    <img class="faction" id="op-faction" src="img/factions/logo_lungmen.png">
+                    <div class="chara-imagescontainer tab-content" id="tabs-opCG"><div class="tab-pane container active" id="opCG_0_tab"><img class="chara-image" src="img/characters/char_010_chen_1.png"></div><div class="tab-pane container" id="opCG_1_tab"><img class="chara-image" src="img/characters/char_010_chen_1.png"></div><div class="tab-pane container" id="opCG_2_tab"><img class="chara-image" src="img/characters/char_010_chen_2.png"></div><div class="tab-pane container" id="opCG_S0_tab">
+                    <img class="chara-image" src="img/characters/char_010_chen_nian%232.png">
+                    </div></div>
+                </div>
+                <div class="col-md-12 absolute top-layer">
+
+                    <div class="row max-height">
+
+                        <div class="col-md-7 col-sm-12 left-col-menu">
+                            <div class="elite-sidenav">
+                            <ul class="nav nav-pills" id="elite-sidenav"><li class="nav-item"><button class="btn tabbing-btns tabbing-btns-top" data-toggle="pill" href="#opCG_2_tab" onclick="ChangeSkin(&quot;char_010_chen&quot;)"><img src="img/ui/elite/2-s.png"></button></li><li class="nav-item"><button class="btn tabbing-btns tabbing-btns-middle" data-toggle="pill" href="#opCG_1_tab" onclick="ChangeSkin(&quot;char_010_chen&quot;)"><img src="img/ui/elite/1-s.png"></button></li><li class="nav-item"><button class="btn tabbing-btns tabbing-btns-bottom active" data-toggle="pill" href="#opCG_0_tab" onclick="ChangeSkin('char_010_chen')"><img src="img/ui/elite/0-s.png"></button></li>
+
+                    <li class="nav-item" style="margin-top:5px"><a class="btn tabbing-btns" data-toggle="pill" href="#opCG_S0_tab" onclick="ChangeSkin(&quot;char_010_chen_nian_2&quot;)">
+                    <div style="display:inline-block;height:100%;vertical-align:middle;"></div>
+                    <img class="skinimage" style="max-width: 40px;max-height: 40px;margin-left:-5px;" src="img/skingroups/2020%23nian.png">
+                    </a></li>
+
+                <button type="button" class="btn tabbing-btns tabbing-btns-top ak-btn" style="width:50px;height:50px;margin-top:10px;" onclick="openOPZOOMmodal()"><span style="font-size: 1.5em" class="fa fa-search-plus"></span></button><button type="button" class="btn tabbing-btns tabbing-btns-middle ak-btn" style="width:50px;height:50px" data-toggle="modal" data-target="#opstory">
+            <div>
+                <img class="audioprofilebutton" src="./img/ui/story/profile.png" style="max-width:40px;max-height:40px">
+                <div class="btn-story-header" style="border-radius:0px">Profile</div>
+            </div>
+            </button><button type="button" class="btn tabbing-btns tabbing-btns-bottom ak-btn" style="width:50px;height:50px" data-toggle="modal" data-target="#opaudio">
+            <div>
+                <img class="audioprofilebutton" src="./img/ui/story/audio.png" style="max-width:40px;max-height:40px" onclick="GetAudio(opdataFull)">
+                <div class="btn-story-header">Audio</div>
+            </div>
+            </button></ul>
+
+                            </div>
+                            <div class="addinfo-nav">
+
+                            </div>
+
+                            <img id="spine-widget-2">
+                            <div id="ak-bottom-allnav" class="">
+
+
+                                <div id="spine-bg-container" style="position:absolute;top: -341px;left:190px">
+                                    <img id="spine-bg" class="" style="display: inline;" src="./img/ui/spine/bg1.png">
+                                </div>
+                                <div id="Chibi-nav">
+                                    <!-- <button class='btn btn-sm ak-chibi-btn' style='background: #aa0000;'type='button' id='' title="Chibi player currently in WIP,need reload to load other thing (also wont stop rendering even not loading properly, refresh to fix) (also most chara chibi isnt included yet)">!</button> -->
+                                    <button class="btn btn-sm ak-chibi-btn" type="button" id="Chibi-Show" title="Show SD">Show SD</button>
+                                    <button class="btn btn-sm ak-chibi-btn" type="button" id="Chibi-Show-menu" title="Show Menu">Menu</button>
+                                    <div id="Chibi-menu" class="chibi-menu-closed">
+                                        <button class="btn btn-sm ak-chibi-btn" type="button" id="Chibi-Bg" title="Change Background"><i class="fas fa-paint-roller"></i></button>
+                                        <!-- <button class='btn btn-sm ak-chibi-btn' type='button' id='Chibi-Scale' title="Change Chibi Scale"><i class="fas fa-search-plus"></i></button> -->
+                                        <button class="btn btn-sm ak-chibi-btn" type="button" id="Chibi-Perspective" title="Change Perspective">P</button>
+                                        <button class="btn btn-sm ak-chibi-btn" id="Chibi-download" title="Experimental Saving"><i class="far fa-save"></i></button>
+                                        <button class="btn btn-sm ak-chibi-btn" id="Chibi-frameSize" title="Experimental Resize">R</button>
+
+                                        <!-- <button class="btn btn-sm ak-chibi-btn" id="Chibi-console" onclick='CheckChibi()' title='Check'>C</button> -->
+                                        <div style="display:inline-flex">
+                                            <button class="btn btn-sm ak-chibi-btn" type="button" id="Chibi-Scale" title="Reset Scale"><i class="fas fa-search-plus"></i></button>
+                                            <input type="range" class="statlevelInput" value="1" min="0" max="50" id="chibizoomslider" oninput="ZoomChibi(this)" style="margin:3px 0px;width:100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="bottom-nav">
+
+                                </div>
+                                <div class="ak-cutcorner-rt" style="position:absolute;bottom: 0px;;background-color: rgb(52, 52, 52);padding-top: 5px;padding-right:5px;padding-left:5px;width: 190px;height:56px;">
+                                    <div id="infonav">
+                                        <div id="info-illustrator"><div class="btn-infoleft ak-shadow"><i class="fas fa-pencil-alt" title="Illustrator"></i></div><div class="btn-inforight"><a href="https://www.google.com/search?q=illustrator+唯@W" target="_blank">唯@W</a></div></div>
+                                        <div id="info-voiceactor"><div class="btn-infoleft ak-shadow"><i class="fas fa-microphone-alt" title="Voice Actor"></i></div><div class="btn-inforight"><a href="https://www.google.com/search?q=Voice+Actor+Shizuka Ishigami" target="_blank">Shizuka Ishigami</a></div></div>
+                                    </div>
+                                </div>
+                                <div id="spine-toolbar">
+                                    <button class="btn btn-sm ak-chibi-btn ak-disable" style="min-width:30px;height:30px" type="button">C</button>
+                                    <button class="btn btn-sm ak-chibi-btn" style="min-width:31px;height:30px" onclick="PlayPause('widget')" type="button" id="Chibi-Play"><b>l l </b></button>
+                                    <button class="btn btn-sm ak-chibi-btn" style="min-width:30px;height:30px" onclick="ChangeAnimation('widget','#spine-text',-1)" type="button" id="Chibi-Prev"><i class="fas fa-step-backward"></i></button>
+                                    <button id="spine-text" class="btn ak-chibi-btn" style="width:140px;height:30px; " onclick="ChangeAnimation('widget','#spine-text',0)">Idle</button>
+                                    <button class="btn btn-sm ak-chibi-btn" style="min-width:30px;height:30px" onclick="ChangeAnimation('widget','#spine-text',1)" type="button" id="Chibi-Next"><i class="fas fa-step-forward"></i></button>
+                                </div>
+                                <div id="spine-frame" style="position: absolute; width: 300px; height: 300px; bottom: -39px; left: 220px; transform: scale(0.75); pointer-events: none;">
+                                    <div id="spine-frameheader" class="btn btn-sm ak-sm-btn" ondblclick="Mirror($('#spine-frame'))" style="display:inline-block;cursor: move;pointer-events:all;transform: scale(2);margin:0px;position: absolute;left:140px;top:90px;opacity: 0;"><i class="fas fa-arrows-alt"></i></div>
+                                    <button class="btn btn-sm ak-sm-btn ak-disable" style="position: absolute; top: 75px; left: 75px; font-size: 30px; display: none;" type="button" id="loading-spine">Loading...</button>
+                                     <!-- scaling 0.5 for "supersampling" chibi -->
+                                <div id="spine-widget" class="top-layer" style="position: absolute; width: 1800px; height: 1800px; top: -750px; left: -750px; pointer-events: none; z-index: 20; transform: scale(0.5);"><canvas width="1800" height="1800" style="width: 100%; height: 100%;"></canvas></div></div>
+                                <div id="spine-frame-token" class="ak-disable" style="position: absolute;width: 300px; height: 300px;bottom:-42px;left:345px;transform: scale(0.75)">
+                                    <div id="spine-frame-tokenheader" class="btn btn-sm ak-sm-btn" ondblclick="Mirror($('#spine-frame-token'))" style="display:inline-block;cursor: move;pointer-events:all;transform: scale(2);margin:0px;position: absolute;left:140px;top:90px;opacity: 0;"><i class="fas fa-arrows-alt"></i></div>
+                                    <div id="spine-widget-token" class="top-layer" style="position:absolute;width: 1800px; height: 1800px;top:-775px;left:-750px;pointer-events: none;z-index: 20;transform: scale(0.5);"></div> <!-- scaling 0.5 for "supersampling" chibi -->
+                                </div>
+
+                            </div>
+
+                            <!-- <div id="spine-toolbar-token" style="position:absolute;bottom:-30px;width:330px;text-align: center;">
+                                <button class='btn btn-sm ak-sm-btn ak-disable' style='min-width:30px;height:30px'  type='button'>W</button>
+                                <button class='btn btn-sm ak-sm-btn' style='min-width:30px;height:30px' onclick='PlayPause("token")' type='button' id='Chibi-Play'>Play/Pause</button>
+                                <button class='btn btn-sm ak-sm-btn' style='min-width:30px;height:30px' onclick='ChangeAnimation("token","#spine-text-token",-1)' type='button' id='Chibi-Prev'>&lt;</button>
+                                <button id="spine-text-token" class="btn ak-sm-btn" style="width:140px;height:30px; "onclick='ChangeAnimation("token","#spine-text-token",0)'></button>
+                                <button class='btn btn-sm ak-sm-btn' style='min-width:30px;height:30px' onclick='ChangeAnimation("token","#spine-text-token",1)' type='button' id='Chibi-Next'>&gt;</button>
+                            </div> -->
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 ak-footer chara-footer-1" style="margin-top: 100px;">
+            <div class="col-12 text-center" style="height: 50px">
+                <div style="vertical-align: middle;line-height: 30px;">Developed and Maintained by: Aceship and Faryzal2020</div>
+                <div style="vertical-align: middle;line-height: 20px;">With translate and data help from: dragonjet, Jetroyz, AEsir and others on <a href="https://discord.gg/vJvAP8X" target="_blank">Rhodes island HQ discord server</a></div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/everpolate.min.js"></script>
+<script src="./js/aknav.js"></script>
+<script src="js/chara-detail.js"></script>
+</div></body></html>
