@@ -1,0 +1,2696 @@
+[
+	{
+		"name": "チェン",
+		"rarity": "6",
+		"folder": "char_010_chen",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_010_chen"
+			},
+			{
+				"name": "岁红霞",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_010_chen_nian_2"
+			}
+		]
+	},
+	{
+		"name": "シージ",
+		"rarity": "6",
+		"folder": "char_112_siege",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_112_siege"
+			},
+			{
+				"name": "LOSTSTONE",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_112_siege_wild_2"
+			}
+		]
+	},
+	{
+		"name": "シャイニング",
+		"rarity": "6",
+		"folder": "char_147_shining",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_147_shining"
+			},
+			{
+				"name": "安息の午夜 DN02",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_147_shining_summer_1"
+			}
+		]
+	},
+	{
+		"name": "ナイチンゲール",
+		"rarity": "6",
+		"folder": "char_179_cgbird",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_179_cgbird"
+			},
+			{
+				"name": "挽歌",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_179_cgbird_witch_1"
+			}
+		]
+	},
+	{
+		"name": "イフリータ",
+		"rarity": "6",
+		"folder": "char_134_ifrit",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_134_ifrit"
+			},
+			{
+				"name": "サンライトSS.SP",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_134_ifrit_summer_1"
+			},
+			{
+				"name": "儿童派对",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_134_ifrit_kfc_1"
+			}
+		]
+	},
+	{
+		"name": "エイヤフィヤトラ",
+		"rarity": "6",
+		"folder": "char_180_amgoat",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_180_amgoat"
+			}
+		]
+	},
+	{
+		"name": "エクシア",
+		"rarity": "6",
+		"folder": "char_103_angel",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_103_angel"
+			},
+			{
+				"name": "荒野潜行",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_103_angel_wild_1"
+			},
+			{
+				"name": "城市骑手",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_103_angel_kfc_1"
+			}
+		]
+	},
+	{
+		"name": "アンジェリーナ",
+		"rarity": "6",
+		"folder": "char_291_aglina",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"base"
+				],
+				"filename": "char_291_aglina"
+			},
+			{
+				"name": "质素访客",
+				"type": [
+					"front",
+					"base"
+				],
+				"filename": "char_291_aglina_boc_1"
+			}
+		]
+	},
+	{
+		"name": "シルバーアッシュ",
+		"rarity": "6",
+		"folder": "char_172_svrash",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_172_svrash"
+			},
+			{
+				"name": "ヨークの寒風",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_172_svrash_snow_1"
+			}
+		]
+	},
+	{
+		"name": "ホシグマ",
+		"rarity": "6",
+		"folder": "char_136_hsguma",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_136_hsguma"
+			},
+			{
+				"name": "狩标浪人",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_136_hsguma_nian_3"
+			}
+		]
+	},
+	{
+		"name": "サリア",
+		"rarity": "6",
+		"folder": "char_202_demkni",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_202_demkni"
+			},
+			{
+				"name": "坚城",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_202_demkni_boc_1"
+			}
+		]
+	},
+	{
+		"name": "スカジ",
+		"rarity": "6",
+		"folder": "char_263_skadi",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_263_skadi"
+			}
+		]
+	},
+	{
+		"name": "シュバルツ",
+		"rarity": "6",
+		"folder": "char_340_shwaz",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_340_shwaz"
+			},
+			{
+				"name": "厚礼",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_340_shwaz_snow_1"
+			}
+		]
+	},
+	{
+		"name": "ヘラグ",
+		"rarity": "6",
+		"folder": "char_188_helage",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_188_helage"
+			}
+		]
+	},
+	{
+		"name": "マゼラン",
+		"rarity": "6",
+		"folder": "char_248_mgllan",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_248_mgllan"
+			}
+		]
+	},
+	{
+		"name": "モスティマ",
+		"rarity": "6",
+		"folder": "char_213_mostma",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_213_mostma"
+			}
+		]
+	},
+	{
+		"name": "ブレイズ",
+		"rarity": "6",
+		"folder": "char_017_huang",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_017_huang"
+			}
+		]
+	},
+	{
+		"name": "ア",
+		"rarity": "6",
+		"folder": "char_225_haak",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_225_haak"
+			}
+		]
+	},
+	{
+		"name": "ニアン",
+		"rarity": "6",
+		"folder": "char_2014_nian",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_2014_nian"
+			}
+		]
+	},
+	{
+		"name": "ケオベ",
+		"rarity": "6",
+		"folder": "char_2013_cerber",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_2013_cerber"
+			}
+		]
+	},
+	{
+		"name": "バグパイプ",
+		"rarity": "6",
+		"folder": "char_222_bpipe",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_222_bpipe"
+			}
+		]
+	},
+	{
+		"name": "ファントム",
+		"rarity": "6",
+		"folder": "char_250_phatom",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_250_phatom"
+			}
+		]
+	},
+	{
+		"name": "W",
+		"rarity": "6",
+		"folder": "char_113_cqbw",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_113_cqbw"
+			}
+		]
+	},
+	{
+		"name": "ウィーディ",
+		"rarity": "6",
+		"folder": "char_400_weedy",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_400_weedy"
+			}
+		]
+	},
+	{
+		"name": "サベージ",
+		"rarity": "5",
+		"folder": "char_230_savage",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_230_savage"
+			}
+		]
+	},
+	{
+		"name": "テキサス",
+		"rarity": "5",
+		"folder": "char_102_texas",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_102_texas"
+			},
+			{
+				"name": "冬の使者",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_102_texas_winter_1"
+			}
+		]
+	},
+	{
+		"name": "ズィマー",
+		"rarity": "5",
+		"folder": "char_115_headbr",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_115_headbr"
+			},
+			{
+				"name": "整装待发",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_115_headbr_marthe_2"
+			}
+		]
+	},
+	{
+		"name": "フィリオプシス",
+		"rarity": "5",
+		"folder": "char_128_plosis",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_128_plosis"
+			},
+			{
+				"name": "幽静",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_128_plosis_epoque_3"
+			}
+		]
+	},
+	{
+		"name": "サイレンス",
+		"rarity": "5",
+		"folder": "char_108_silent",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_108_silent"
+			},
+			{
+				"name": "漆匠",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_108_silent_sweep_1"
+			}
+		]
+	},
+	{
+		"name": "ワルファリン",
+		"rarity": "5",
+		"folder": "char_171_bldsk",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_171_bldsk"
+			},
+			{
+				"name": "盛宴",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_171_bldsk_witch_1"
+			}
+		]
+	},
+	{
+		"name": "アーミヤ",
+		"rarity": "5",
+		"folder": "char_002_amiya",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_002_amiya"
+			},
+			{
+				"name": "新聞配達員",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_002_amiya_winter_1"
+			},
+			{
+				"name": "见习联结者",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_002_amiya_epoque_4"
+			}
+		]
+	},
+	{
+		"name": "ナイトメア",
+		"rarity": "5",
+		"folder": "char_164_nightm",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_164_nightm"
+			}
+		]
+	},
+	{
+		"name": "スカイフレア",
+		"rarity": "5",
+		"folder": "char_166_skfire",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_166_skfire"
+			},
+			{
+				"name": "温度差RT.RX01",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_166_skfire_summer_1"
+			}
+		]
+	},
+	{
+		"name": "レッド",
+		"rarity": "5",
+		"folder": "char_144_red",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_144_red"
+			}
+		]
+	},
+	{
+		"name": "マンティコア",
+		"rarity": "5",
+		"folder": "char_215_mantic",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_215_mantic"
+			}
+		]
+	},
+	{
+		"name": "クリフハート",
+		"rarity": "5",
+		"folder": "char_173_slchan",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_173_slchan"
+			},
+			{
+				"name": "高原访客",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_173_slchan_wwf_1"
+			},
+			{
+				"name": "登山家",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_173_slchan_wild_1"
+			}
+		]
+	},
+	{
+		"name": "エフイーター",
+		"rarity": "5",
+		"folder": "char_241_panda",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_241_panda"
+			},
+			{
+				"name": "片场一角",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_241_panda_marthe_1"
+			}
+		]
+	},
+	{
+		"name": "プロヴァンス",
+		"rarity": "5",
+		"folder": "char_145_prove",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_145_prove"
+			}
+		]
+	},
+	{
+		"name": "アズリウス",
+		"rarity": "5",
+		"folder": "char_129_bluep",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_129_bluep"
+			}
+		]
+	},
+	{
+		"name": "ファイヤーウォッチ",
+		"rarity": "5",
+		"folder": "char_158_milu",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_158_milu"
+			},
+			{
+				"name": "枯柏",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_158_milu_wild_2"
+			}
+		]
+	},
+	{
+		"name": "メテオリーテ",
+		"rarity": "5",
+		"folder": "char_219_meteo",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_219_meteo"
+			},
+			{
+				"name": "石墨",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_219_meteo_sweep_1"
+			}
+		]
+	},
+	{
+		"name": "プラチナ",
+		"rarity": "5",
+		"folder": "char_204_platnm",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_204_platnm"
+			}
+		]
+	},
+	{
+		"name": "プラマニクス",
+		"rarity": "5",
+		"folder": "char_174_slbell",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_174_slbell"
+			},
+			{
+				"name": "カスターの霜",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_174_slbell_snow_1"
+			}
+		]
+	},
+	{
+		"name": "イースチナ",
+		"rarity": "5",
+		"folder": "char_195_glassb",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_195_glassb"
+			}
+		]
+	},
+	{
+		"name": "メイヤー",
+		"rarity": "5",
+		"folder": "char_242_otter",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_242_otter"
+			}
+		]
+	},
+	{
+		"name": "ソラ",
+		"rarity": "5",
+		"folder": "char_101_sora",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_101_sora"
+			},
+			{
+				"name": "夏の花弁 FA361",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_101_sora_summer_1"
+			}
+		]
+	},
+	{
+		"name": "フランカ",
+		"rarity": "5",
+		"folder": "char_106_franka",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_106_franka"
+			}
+		]
+	},
+	{
+		"name": "スペクター",
+		"rarity": "5",
+		"folder": "char_143_ghost",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_143_ghost"
+			},
+			{
+				"name": "暗流",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_143_ghost_winter_1"
+			}
+		]
+	},
+	{
+		"name": "インドラ",
+		"rarity": "5",
+		"folder": "char_155_tiger",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_155_tiger"
+			}
+		]
+	},
+	{
+		"name": "ラップランド",
+		"rarity": "5",
+		"folder": "char_140_whitew",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_140_whitew"
+			},
+			{
+				"name": "典雅噩兆",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_140_whitew_boc_1"
+			}
+		]
+	},
+	{
+		"name": "ニアール",
+		"rarity": "5",
+		"folder": "char_148_nearl",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_148_nearl"
+			}
+		]
+	},
+	{
+		"name": "リスカム",
+		"rarity": "5",
+		"folder": "char_107_liskam",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_107_liskam"
+			},
+			{
+				"name": "春竜",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_107_liskam_nian_2"
+			}
+		]
+	},
+	{
+		"name": "ヴァルカン",
+		"rarity": "5",
+		"folder": "char_163_hpsts",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_163_hpsts"
+			}
+		]
+	},
+	{
+		"name": "クロワッサン",
+		"rarity": "5",
+		"folder": "char_201_moeshd",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_201_moeshd"
+			},
+			{
+				"name": "清晨七点",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_201_moeshd_kfc_1"
+			}
+		]
+	},
+	{
+		"name": "グラニ",
+		"rarity": "5",
+		"folder": "char_220_grani",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_220_grani"
+			}
+		]
+	},
+	{
+		"name": "スワイヤー",
+		"rarity": "5",
+		"folder": "char_308_swire",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_308_swire"
+			},
+			{
+				"name": "富貴栄華",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_308_swire_nian_2"
+			}
+		]
+	},
+	{
+		"name": "グラウコス",
+		"rarity": "5",
+		"folder": "char_326_glacus",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_326_glacus"
+			}
+		]
+	},
+	{
+		"name": "セイロン",
+		"rarity": "5",
+		"folder": "char_348_ceylon",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_348_ceylon"
+			}
+		]
+	},
+	{
+		"name": "アステシア",
+		"rarity": "5",
+		"folder": "char_274_astesi",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_274_astesi"
+			}
+		]
+	},
+	{
+		"name": "エンカク",
+		"rarity": "5",
+		"folder": "char_131_flameb",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_131_flameb"
+			}
+		]
+	},
+	{
+		"name": "イグゼキュター",
+		"rarity": "5",
+		"folder": "char_279_excu",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_279_excu"
+			},
+			{
+				"name": "無題密令",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_279_excu_boc_1"
+			}
+		]
+	},
+	{
+		"name": "ブリーズ",
+		"rarity": "5",
+		"folder": "char_275_breeze",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_275_breeze"
+			}
+		]
+	},
+	{
+		"name": "ワーイ・フー",
+		"rarity": "5",
+		"folder": "char_243_waaifu",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_243_waaifu"
+			}
+		]
+	},
+	{
+		"name": "バイソン",
+		"rarity": "5",
+		"folder": "char_325_bison",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_325_bison"
+			}
+		]
+	},
+	{
+		"name": "リード",
+		"rarity": "5",
+		"folder": "char_261_sddrag",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_261_sddrag"
+			}
+		]
+	},
+	{
+		"name": "ブローカ",
+		"rarity": "5",
+		"folder": "char_356_broca",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_356_broca"
+			}
+		]
+	},
+	{
+		"name": "グレイスロート",
+		"rarity": "5",
+		"folder": "char_367_swllow",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_367_swllow"
+			},
+			{
+				"name": "归巢",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_367_swllow_boc_1"
+			}
+		]
+	},
+	{
+		"name": "スノーズント",
+		"rarity": "5",
+		"folder": "char_383_snsant",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_383_snsant"
+			}
+		]
+	},
+	{
+		"name": "ウン",
+		"rarity": "5",
+		"folder": "char_226_hmau",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_226_hmau"
+			}
+		]
+	},
+	{
+		"name": "レイズ",
+		"rarity": "5",
+		"folder": "char_306_leizi",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_306_leizi"
+			}
+		]
+	},
+	{
+		"name": "バイビーク",
+		"rarity": "5",
+		"folder": "char_252_bibeak",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_252_bibeak"
+			}
+		]
+	},
+	{
+		"name": "シェーシャ",
+		"rarity": "5",
+		"folder": "char_379_sesa",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_379_sesa"
+			}
+		]
+	},
+	{
+		"name": "シャマレ",
+		"rarity": "5",
+		"folder": "char_254_vodfox",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_254_vodfox"
+			}
+		]
+	},
+	{
+		"name": "シデロカ",
+		"rarity": "5",
+		"folder": "char_333_sidero",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_333_sidero"
+			}
+		]
+	},
+	{
+		"name": "エリジウム",
+		"rarity": "5",
+		"folder": "char_401_elysm",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_401_elysm"
+			}
+		]
+	},
+	{
+		"name": "クーリエ",
+		"rarity": "4",
+		"folder": "char_198_blackd",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_198_blackd"
+			},
+			{
+				"name": "新航路",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_198_blackd_winter_1"
+			}
+		]
+	},
+	{
+		"name": "スカベンジャー",
+		"rarity": "4",
+		"folder": "char_149_scave",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_149_scave"
+			}
+		]
+	},
+	{
+		"name": "ヴィグナ",
+		"rarity": "4",
+		"folder": "char_290_vigna",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_290_vigna"
+			},
+			{
+				"name": "ホリデーHD01",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_290_vigna_summer_1"
+			}
+		]
+	},
+	{
+		"name": "ミルラ",
+		"rarity": "4",
+		"folder": "char_117_myrrh",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_117_myrrh"
+			},
+			{
+				"name": "辛味",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_117_myrrh_wild_1"
+			}
+		]
+	},
+	{
+		"name": "ガヴィル",
+		"rarity": "4",
+		"folder": "char_187_ccheal",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_187_ccheal"
+			},
+			{
+				"name": "戦医",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_187_ccheal_epoque_2"
+			}
+		]
+	},
+	{
+		"name": "パフューマー",
+		"rarity": "4",
+		"folder": "char_181_flower",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_181_flower"
+			},
+			{
+				"name": "植物紀年",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_181_flower_daily_1"
+			}
+		]
+	},
+	{
+		"name": "ヘイズ",
+		"rarity": "4",
+		"folder": "char_141_nights",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_141_nights"
+			}
+		]
+	},
+	{
+		"name": "ギターノ",
+		"rarity": "4",
+		"folder": "char_109_fmout",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_109_fmout"
+			},
+			{
+				"name": "未知的旅行",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_109_fmout_epoque_2"
+			}
+		]
+	},
+	{
+		"name": "グラベル",
+		"rarity": "4",
+		"folder": "char_237_gravel",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_237_gravel"
+			}
+		]
+	},
+	{
+		"name": "ロープ",
+		"rarity": "4",
+		"folder": "char_236_rope",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_236_rope"
+			},
+			{
+				"name": "おてんば魔女っこ",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_236_rope_witch_1"
+			}
+		]
+	},
+	{
+		"name": "ショウ",
+		"rarity": "4",
+		"folder": "char_277_sqrrel",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_277_sqrrel"
+			}
+		]
+	},
+	{
+		"name": "シラユキ",
+		"rarity": "4",
+		"folder": "char_118_yuki",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_118_yuki"
+			}
+		]
+	},
+	{
+		"name": "メテオ",
+		"rarity": "4",
+		"folder": "char_126_shotst",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_126_shotst"
+			}
+		]
+	},
+	{
+		"name": "ジェシカ",
+		"rarity": "4",
+		"folder": "char_235_jesica",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_235_jesica"
+			},
+			{
+				"name": "君子蘭",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_235_jesica_nian_2"
+			},
+			{
+				"name": "燃灰",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_235_jesica_wild_2"
+			},
+			{
+				"name": "鉄塊",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_235_jesica_sweep_1"
+			}
+		]
+	},
+	{
+		"name": "ディピカ",
+		"rarity": "4",
+		"folder": "char_110_deepcl",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_110_deepcl"
+			}
+		]
+	},
+	{
+		"name": "アーススピリット",
+		"rarity": "4",
+		"folder": "char_183_skgoat",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_183_skgoat"
+			}
+		]
+	},
+	{
+		"name": "ドーベルマン",
+		"rarity": "4",
+		"folder": "char_130_doberm",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_130_doberm"
+			}
+		]
+	},
+	{
+		"name": "エステル",
+		"rarity": "4",
+		"folder": "char_127_estell",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_127_estell"
+			}
+		]
+	},
+	{
+		"name": "ビーハンター",
+		"rarity": "4",
+		"folder": "char_137_brownb",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_137_brownb"
+			}
+		]
+	},
+	{
+		"name": "ムース",
+		"rarity": "4",
+		"folder": "char_185_frncat",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_185_frncat"
+			}
+		]
+	},
+	{
+		"name": "フロストリーフ",
+		"rarity": "4",
+		"folder": "char_193_frostl",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_193_frostl"
+			}
+		]
+	},
+	{
+		"name": "マトイマル",
+		"rarity": "4",
+		"folder": "char_289_gyuki",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_289_gyuki"
+			}
+		]
+	},
+	{
+		"name": "クオーラ",
+		"rarity": "4",
+		"folder": "char_150_snakek",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_150_snakek"
+			},
+			{
+				"name": "スクエア",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_150_snakek_wild_1"
+			}
+		]
+	},
+	{
+		"name": "グム",
+		"rarity": "4",
+		"folder": "char_196_sunbr",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_196_sunbr"
+			},
+			{
+				"name": "夏の花弁FA011",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_196_sunbr_summer_1"
+			}
+		]
+	},
+	{
+		"name": "マッターホルン",
+		"rarity": "4",
+		"folder": "char_199_yak",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_199_yak"
+			},
+			{
+				"name": "砂浜の番人 GT001",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_199_yak_summer_1"
+			}
+		]
+	},
+	{
+		"name": "グレイ",
+		"rarity": "4",
+		"folder": "char_253_greyy",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_253_greyy"
+			}
+		]
+	},
+	{
+		"name": "ススーロ",
+		"rarity": "4",
+		"folder": "char_298_susuro",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_298_susuro"
+			}
+		]
+	},
+	{
+		"name": "テンニンカ",
+		"rarity": "4",
+		"folder": "char_151_myrtle",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_151_myrtle"
+			}
+		]
+	},
+	{
+		"name": "ジュナー",
+		"rarity": "4",
+		"folder": "char_260_durnar",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_260_durnar"
+			}
+		]
+	},
+	{
+		"name": "ヴァーミル",
+		"rarity": "4",
+		"folder": "char_190_clour",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_190_clour"
+			}
+		]
+	},
+	{
+		"name": "イーサン",
+		"rarity": "4",
+		"folder": "char_355_ethan",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_355_ethan"
+			}
+		]
+	},
+	{
+		"name": "メイ",
+		"rarity": "4",
+		"folder": "char_133_mm",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_133_mm"
+			}
+		]
+	},
+	{
+		"name": "アンブリエル",
+		"rarity": "4",
+		"folder": "char_302_glaze",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_302_glaze"
+			}
+		]
+	},
+	{
+		"name": "セイリュウ",
+		"rarity": "4",
+		"folder": "char_385_finlpp",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_385_finlpp"
+			}
+		]
+	},
+	{
+		"name": "ウタゲ",
+		"rarity": "4",
+		"folder": "char_337_utage",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_337_utage"
+			}
+		]
+	},
+	{
+		"name": "コンヴィクション",
+		"rarity": "4",
+		"folder": "char_159_peacok",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_159_peacok"
+			}
+		]
+	},
+	{
+		"name": "カッター",
+		"rarity": "4",
+		"folder": "char_301_cutter",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_301_cutter"
+			}
+		]
+	},
+	{
+		"name": "フェン",
+		"rarity": "3",
+		"folder": "char_123_fang",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_123_fang"
+			},
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_123_fang_winter_1"
+			}
+		]
+	},
+	{
+		"name": "バニラ",
+		"rarity": "3",
+		"folder": "char_240_wyvern",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_240_wyvern"
+			}
+		]
+	},
+	{
+		"name": "プリュム",
+		"rarity": "3",
+		"folder": "char_192_falco",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_192_falco"
+			}
+		]
+	},
+	{
+		"name": "ハイビスカス",
+		"rarity": "3",
+		"folder": "char_120_hibisc",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_120_hibisc"
+			},
+			{
+				"name": "除夜の者",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_120_hibisc_nian_1"
+			}
+		]
+	},
+	{
+		"name": "アンセル",
+		"rarity": "3",
+		"folder": "char_212_ansel",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_212_ansel"
+			},
+			{
+				"name": "ホリデーHDm06",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_212_ansel_summer_1"
+			}
+		]
+	},
+	{
+		"name": "ラヴァ",
+		"rarity": "3",
+		"folder": "char_121_lava",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_121_lava"
+			}
+		]
+	},
+	{
+		"name": "スチュワード",
+		"rarity": "3",
+		"folder": "char_210_stward",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_210_stward"
+			}
+		]
+	},
+	{
+		"name": "クルース",
+		"rarity": "3",
+		"folder": "char_124_kroos",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_124_kroos"
+			},
+			{
+				"name": "マジシャン",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_124_kroos_witch_1"
+			}
+		]
+	},
+	{
+		"name": "アドナキエル",
+		"rarity": "3",
+		"folder": "char_211_adnach",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_211_adnach"
+			}
+		]
+	},
+	{
+		"name": "オーキッド",
+		"rarity": "3",
+		"folder": "char_278_orchid",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_278_orchid"
+			}
+		]
+	},
+	{
+		"name": "メランサ",
+		"rarity": "3",
+		"folder": "char_208_melan",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_208_melan"
+			},
+			{
+				"name": "ウェセックスレター",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_208_melan_epoque_1"
+			}
+		]
+	},
+	{
+		"name": "ビーグル",
+		"rarity": "3",
+		"folder": "char_122_beagle",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_122_beagle"
+			}
+		]
+	},
+	{
+		"name": "カーディ",
+		"rarity": "3",
+		"folder": "char_209_ardign",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_209_ardign"
+			},
+			{
+				"name": "快乐卫士",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_209_ardign_snow_1"
+			}
+		]
+	},
+	{
+		"name": "カタパルト",
+		"rarity": "3",
+		"folder": "char_282_catap",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_282_catap"
+			}
+		]
+	},
+	{
+		"name": "ミッドナイト",
+		"rarity": "3",
+		"folder": "char_283_midn",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_283_midn"
+			},
+			{
+				"name": "第七夜苏醒魔君",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_283_midn_boc_1"
+			}
+		]
+	},
+	{
+		"name": "ポプカル",
+		"rarity": "3",
+		"folder": "char_281_popka",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_281_popka"
+			}
+		]
+	},
+	{
+		"name": "スポット",
+		"rarity": "3",
+		"folder": "char_284_spot",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_284_spot"
+			}
+		]
+	},
+	{
+		"name": "ヤトウ",
+		"rarity": "2",
+		"folder": "char_502_nblade",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_502_nblade"
+			}
+		]
+	},
+	{
+		"name": "ドゥリン",
+		"rarity": "2",
+		"folder": "char_501_durin",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_501_durin"
+			}
+		]
+	},
+	{
+		"name": "12F",
+		"rarity": "2",
+		"folder": "char_009_12fce",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_009_12fce"
+			}
+		]
+	},
+	{
+		"name": "レンジャー",
+		"rarity": "2",
+		"folder": "char_503_rang",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_503_rang"
+			}
+		]
+	},
+	{
+		"name": "ノイルホーン",
+		"rarity": "2",
+		"folder": "char_500_noirc",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_500_noirc"
+			}
+		]
+	},
+	{
+		"name": "Lancet-2",
+		"rarity": "1",
+		"folder": "char_285_medic2",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_285_medic2"
+			}
+		]
+	},
+	{
+		"name": "Castle-3",
+		"rarity": "1",
+		"folder": "char_286_cast3",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_286_cast3"
+			},
+			{
+				"name": "SUM019.ver",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_286_cast3_summer_1"
+			}
+		]
+	},
+	{
+		"name": "THRM-EX",
+		"rarity": "1",
+		"folder": "char_376_therex",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_376_therex"
+			}
+		]
+	}
+]

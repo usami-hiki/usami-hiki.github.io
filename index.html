@@ -1,62 +1,148 @@
-<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="theme-color" content="#222222ff">
-<title translate-id="web-title">Arknights Operator Details</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/ak.css">
-<link rel="stylesheet" href="css/akchardetail.css">
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
-<script src="js/spine-widget.js"></script>
+<script src="js/3.5/spine-widget.js"></script>
 <script src="js/spine-skeleton-binary.js"></script>
+<script src="js/spine-action.js"></script>
+<style type="text/css">
+<!--
+.action{
+  border-width: 1px;
+  border-color: gray;
+
+  background-color: #b1eeff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.action:hover{
+  cursor:pointer;
+  filter: alpha(opacity=60);
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
+  opacity:0.6;
+}
+.action:active{
+  border:1px solid #334c66;
+  background-color:#69c;
+  color:#e0ebf5;
+  -webkit-box-shadow:inset 0px 0px 8px #334c66;
+  -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+  box-shadow:inset 0px 0px 2px #3a6da0;
+}
+optgroup.head6 {
+  background:#FFC000;
+}
+optgroup.head5 {
+  background:#B1A0C7;
+}
+optgroup.head4 {
+  background:#92D050;
+}
+optgroup.head3 {
+  background:#92D050;
+}
+optgroup.head2 {
+  background:#D9D9D9;
+}
+optgroup.head1 {
+  background:#ffffff;
+}
+div.action{
+  position: relative;
+  z-index: 10;
+}
+div.action{
+  position: relative;
+  z-index: 10;
+}
+
+-->
+</style>
+
+<title>arknightools</title>
+
 </head>
 <body>
+  <div id="main" class="container">
 
-  <div class="col-md-12 col-sm-12 " style="margin: auto; max-width: 1000px; padding: 0">
-    <div class="row">
+    <br>
+    <h1>アークナイツSDモーションツール</h1>
+    <br>
 
-      <div class="chara-detail-container" id="chara-detail-container">
-        <div class="row">
-          <div class="col-md-12 absolute top-layer">
+    <div class="border col-12">
 
-            <div class="row max-height">
+      <div class="row">
+        <div id="player-container" style="width: 640px; height: 480px; transform: scale(0.75);"></div>
+      </div>
 
-              <div class="col-md-7 col-sm-12 left-col-menu">
-
-                <div id="ak-bottom-allnav" class="">
-
-                  <div id="bottom-nav"></div>
-                  <div id="spine-frame" style="position: absolute; width: 300px; height: 300px; bottom: -39px; left: 220px; transform: scale(0.75); pointer-events: none;">
-                    <div id="spine-frameheader" class="btn btn-sm ak-sm-btn" ondblclick="Mirror($('#spine-frame'))" style="display: inline-block; cursor: move; pointer-events: all; transform: scale(2); margin: 0px; position: absolute; left: 140px; top: 90px; opacity: 0;">
-                      <i class="fas fa-arrows-alt"></i>
-                    </div>
-                    <button class="btn btn-sm ak-sm-btn ak-disable" style="position: absolute; top: 75px; left: 75px; font-size: 30px; display: none;" type="button" id="loading-spine"></button>
-                  </div>
-
-                </div>
-
-              </div>
-
-
-            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>オペレーター：</label> <select id="ope" class="form-control">
+              <option value="">---選択してください---</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>コーデ：</label> <select id="coord" class="form-control"></select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>ロケーション：</label> <select id="type" class="form-control"></select>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-4" style="min-width: 200px;">
+          <div class="form-group">
+            <label>アクション：</label>
+            <div id="action_list" class="border">
+              <div class="form-control action">
+                Default
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-8">
+          <div class="form-group">
+            <label>再生リスト：</label>
+            <textarea id="play_list" class="form-control" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="custom-check-1">
+              <label class="custom-control-label" for="custom-check-1">先頭から繰り返す</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row center-block text-center">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <button type="button" id="clear" class="btn btn-outline-secondary btn-block">クリア</button>
+              </div>
+              <div class="col-5">
+                <button type="button" id="play" class="btn btn-outline-primary btn-block">再生</button>
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+          </div>
+        </div>
+      </div>
+
+      <br>
     </div>
-
-    <script src="./js/everpolate.min.js"></script>
-    <script src="./js/aknav.js"></script>
-    <script src="./js/chara-detail.js"></script>
-
-    <script>
-          $(document).ready(function() {
-            LoadAnimation();
-          });
-        </script>
   </div>
+
 </body>
 </html>
