@@ -2455,6 +2455,15 @@
 					"base"
 				],
 				"filename": "char_122_beagle"
+			},
+			{
+				"name": "无畏",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_122_beagle_boc_1"
 			}
 		]
 	},
