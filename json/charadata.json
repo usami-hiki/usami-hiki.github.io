@@ -499,6 +499,22 @@
 		]
 	},
 	{
+		"name": "ロサ",
+		"rarity": "6",
+		"folder": "char_197_poca",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_197_poca"
+			}
+		]
+	},
+	{
 		"name": "サベージ",
 		"rarity": "5",
 		"folder": "char_230_savage",
@@ -1296,7 +1312,7 @@
 		]
 	},
 	{
-		"name": "ワーイ・フー",
+		"name": "ワイフー",
 		"rarity": "5",
 		"folder": "char_243_waaifu",
 		"coordinates": [
@@ -1509,6 +1525,70 @@
 					"base"
 				],
 				"filename": "char_401_elysm"
+			}
+		]
+	},
+	{
+		"name": "アスベスト",
+		"rarity": "5",
+		"folder": "char_378_asbest",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_378_asbest"
+			}
+		]
+	},
+	{
+		"name": "ツキノギ",
+		"rarity": "5",
+		"folder": "char_343_tknogi",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_343_tknogi"
+			}
+		]
+	},
+	{
+		"name": "アブサント",
+		"rarity": "5",
+		"folder": "char_405_absin",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_405_absin"
+			}
+		]
+	},
+	{
+		"name": "レオンハルト",
+		"rarity": "5",
+		"folder": "char_373_lionhd",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_373_lionhd"
 			}
 		]
 	},
@@ -2218,6 +2298,22 @@
 					"base"
 				],
 				"filename": "char_301_cutter"
+			}
+		]
+	},
+	{
+		"name": "ポデンコ",
+		"rarity": "4",
+		"folder": "char_258_podego",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_258_podego"
 			}
 		]
 	},
