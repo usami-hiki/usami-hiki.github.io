@@ -351,6 +351,15 @@
 					"base"
 				],
 				"filename": "char_248_mgllan"
+			},
+			{
+				"name": "回味冰霜雪",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_248_mgllan_kitchen_1"
 			}
 		]
 	},
@@ -759,6 +768,15 @@
 					"base"
 				],
 				"filename": "char_215_mantic"
+			},
+			{
+				"name": "无形悼挽",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_215_mantic_epoque_4"
 			}
 		]
 	},
@@ -957,6 +975,15 @@
 					"base"
 				],
 				"filename": "char_195_glassb"
+			},
+			{
+				"name": "书味",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_195_glassb_kitchen_1"
 			}
 		]
 	},
@@ -1983,6 +2010,15 @@
 					"base"
 				],
 				"filename": "char_137_brownb"
+			},
+			{
+				"name": "掠蜜能手",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_137_brownb_kitchen_1"
 			}
 		]
 	},
@@ -2658,6 +2694,15 @@
 					"base"
 				],
 				"filename": "char_284_spot"
+			},
+			{
+				"name": "otaku",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_284_spot_otaku_1"
 			}
 		]
 	},
