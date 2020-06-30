@@ -109,7 +109,7 @@ function LoadAnimation(animation_list, endloop = false, skipStart = false, isend
 				jsonContent : jsonskel,
 				atlas : filepath + ".atlas",
 				// animation : [ "Start", "Idle", "Attack" ],
-				animation : "Default",
+				//animation : "Default",
 				backgroundColor : "#00000000",
 				premultipliedAlpha : true,
 				fitToCanvas : false,
