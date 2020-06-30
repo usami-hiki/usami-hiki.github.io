@@ -110,6 +110,7 @@ function LoadAnimation(animation_list, endloop = false, skipStart = false, isend
 				atlas : filepath + ".atlas",
 				// animation : [ "Start", "Idle", "Attack" ],
 				//animation : "Default",
+				animation : $("#type").val() == "base" ? "Relax" : "Default",
 				backgroundColor : "#00000000",
 				premultipliedAlpha : true,
 				fitToCanvas : false,
