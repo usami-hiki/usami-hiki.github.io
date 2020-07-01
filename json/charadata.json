@@ -711,8 +711,16 @@
 					"base"
 				],
 				"filename": "char_164_nightm"
-			}
-		]
+			},
+			{
+				"name": "光影",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_164_nightm_epoque_5"
+			}		]
 	},
 	{
 		"name": "スカイフレア",
