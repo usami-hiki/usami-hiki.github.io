@@ -376,6 +376,15 @@
 					"base"
 				],
 				"filename": "char_213_mostma"
+			},
+			{
+				"name": "除魅",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_213_mostma_epoque_5"
 			}
 		]
 	},
@@ -520,6 +529,22 @@
 					"base"
 				],
 				"filename": "char_197_poca"
+			}
+		]
+	},
+	{
+		"name": "スズラン",
+		"rarity": "6",
+		"folder": "char_358_lisa",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_358_lisa"
 			}
 		]
 	},
@@ -1286,6 +1311,15 @@
 					"base"
 				],
 				"filename": "char_274_astesi"
+			},
+			{
+				"name": "寻耀",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_274_astesi_epoque_5"
 			}
 		]
 	},
@@ -1624,6 +1658,38 @@
 					"base"
 				],
 				"filename": "char_373_lionhd"
+			}
+		]
+	},
+	{
+		"name": "エアースカーペ",
+		"rarity": "5",
+		"folder": "char_294_ayer",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_294_ayer"
+			}
+		]
+	},
+	{
+		"name": "フォリニック",
+		"rarity": "5",
+		"folder": "char_345_folnic",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_345_folnic"
 			}
 		]
 	},
@@ -2358,6 +2424,22 @@
 					"base"
 				],
 				"filename": "char_258_podego"
+			}
+		]
+	},
+	{
+		"name": "カシャ",
+		"rarity": "4",
+		"folder": "char_328_cammou",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_328_cammou"
 			}
 		]
 	},
