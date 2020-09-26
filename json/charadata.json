@@ -228,6 +228,15 @@
 					"base"
 				],
 				"filename": "char_172_svrash_snow_1"
+			},
+			{
+				"name": "探寻者 SKm01",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_172_svrash_summer_4"
 			}
 		]
 	},
@@ -294,6 +303,15 @@
 					"base"
 				],
 				"filename": "char_263_skadi"
+			},
+			{
+				"name": "驭浪 WR04",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_263_skadi_summer_3"
 			}
 		]
 	},
@@ -449,6 +467,15 @@
 					"base"
 				],
 				"filename": "char_2013_cerber"
+			},
+			{
+				"name": "夏卉 FA333",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_2013_cerber_summer_4"
 			}
 		]
 	},
@@ -545,6 +572,63 @@
 					"base"
 				],
 				"filename": "char_358_lisa"
+			},
+			{
+				"name": "弃土花开",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_358_lisa_wild_3"
+			}
+		]
+	},
+	{
+		"name": "ソーンズ",
+		"rarity": "6",
+		"folder": "char_293_thorns",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_293_thorns"
+			}
+		]
+	},
+	{
+		"name": "スルト",
+		"rarity": "6",
+		"folder": "char_350_surtr",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_350_surtr"
+			}
+		]
+	},
+	{
+		"name": "ユーネクテス",
+		"rarity": "6",
+		"folder": "char_416_zumama",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_416_zumama"
 			}
 		]
 	},
@@ -885,6 +969,15 @@
 					"base"
 				],
 				"filename": "char_145_prove"
+			},
+			{
+				"name": "悠然假日_HD08",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_145_prove_summer_3"
 			}
 		]
 	},
@@ -967,8 +1060,16 @@
 					"base"
 				],
 				"filename": "char_204_platnm"
-			}
-		]
+			},
+			{
+				"name": "灿阳朝露 SD05",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_204_platnm_summer_3"
+			}		]
 	},
 	{
 		"name": "プラマニクス",
@@ -1156,6 +1257,15 @@
 					"base"
 				],
 				"filename": "char_148_nearl"
+			},
+			{
+				"name": "灿阳朝露 SD01",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_148_nearl_summer_2"
 			}
 		]
 	},
@@ -1222,6 +1332,15 @@
 					"base"
 				],
 				"filename": "char_201_moeshd_kfc_1"
+			},
+			{
+				"name": "探寻者 SK03",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_201_moeshd_summer_4"
 			}
 		]
 	},
@@ -1658,6 +1777,15 @@
 					"base"
 				],
 				"filename": "char_373_lionhd"
+			},
+			{
+				"name": "宝藏行家",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_373_lionhd_wild_3"
 			}
 		]
 	},
@@ -1690,6 +1818,143 @@
 					"base"
 				],
 				"filename": "char_345_folnic"
+			}
+		]
+	},
+	{
+		"name": "アンドレアナ",
+		"rarity": "5",
+		"folder": "char_218_cuttle",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_218_cuttle"
+			}
+		]
+	},
+	{
+		"name": "シーン",
+		"rarity": "5",
+		"folder": "char_336_folivo",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_336_folivo"
+			}
+		]
+	},
+	{
+		"name": "ビーズワクス",
+		"rarity": "5",
+		"folder": "char_344_beewax",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_344_beewax"
+			}
+		]
+	},
+	{
+		"name": "キアーベ",
+		"rarity": "5",
+		"folder": "char_349_chiave",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_349_chiave"
+			}
+		]
+	},
+	{
+		"name": "エイプリル",
+		"rarity": "5",
+		"folder": "char_365_aprl",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_365_aprl"
+			},
+			{
+				"name": "远望",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_365_aprl_wild_3"
+			}
+		]
+	},
+	{
+		"name": "ミント",
+		"rarity": "5",
+		"folder": "char_388_mint",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_388_mint"
+			}
+		]
+	},
+	{
+		"name": "トミミ",
+		"rarity": "5",
+		"folder": "char_411_tomimi",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_411_tomimi"
+			}
+		]
+	},
+	{
+		"name": "フリント",
+		"rarity": "5",
+		"folder": "char_415_flint",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_415_flint"
 			}
 		]
 	},
@@ -1913,6 +2178,15 @@
 					"base"
 				],
 				"filename": "char_236_rope_witch_1"
+			},
+			{
+				"name": "夏卉 FA008",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_236_rope_summer_2"
 			}
 		]
 	},
@@ -2376,6 +2650,15 @@
 					"base"
 				],
 				"filename": "char_337_utage"
+			},
+			{
+				"name": "夏卉 FA661",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_337_utage_summer_4"
 			}
 		]
 	},
@@ -2440,6 +2723,54 @@
 					"base"
 				],
 				"filename": "char_328_cammou"
+			}
+		]
+	},
+	{
+		"name": "アレアン",
+		"rarity": "4",
+		"folder": "char_271_spikes",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_271_spikes"
+			}
+		]
+	},
+	{
+		"name": "ジェイ",
+		"rarity": "4",
+		"folder": "char_272_strong",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_272_strong"
+			}
+		]
+	},
+	{
+		"name": "アシッドドロップ",
+		"rarity": "4",
+		"folder": "char_366_acdrop",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_366_acdrop"
 			}
 		]
 	},
