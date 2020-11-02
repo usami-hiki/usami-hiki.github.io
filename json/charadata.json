@@ -508,6 +508,15 @@
 					"base"
 				],
 				"filename": "char_250_phatom"
+			},
+			{
+				"name": "梦魇之梦",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_250_phatom_ghost_1"
 			}
 		]
 	},
@@ -524,6 +533,15 @@
 					"base"
 				],
 				"filename": "char_113_cqbw"
+			},
+			{
+				"name": "恍惚",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_113_cqbw_epoque_7"
 			}
 		]
 	},
@@ -633,6 +651,54 @@
 		]
 	},
 	{
+		"name": "マドロック",
+		"rarity": "6",
+		"folder": "char_311_mudrok",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_311_mudrok"
+			}
+		]
+	},
+	{
+		"name": "ロスモンティス",
+		"rarity": "6",
+		"folder": "char_391_rosmon",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_391_rosmon"
+			}
+		]
+	},
+	{
+		"name": "ブレミシャイン",
+		"rarity": "6",
+		"folder": "char_423_blemsh",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_423_blemsh"
+			}
+		]
+	},
+	{
 		"name": "サベージ",
 		"rarity": "5",
 		"folder": "char_230_savage",
@@ -670,6 +736,15 @@
 					"base"
 				],
 				"filename": "char_102_texas_winter_1"
+			},
+			{
+				"name": "意志",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_102_texas_epoque_7"
 			}
 		]
 	},
@@ -1134,6 +1209,15 @@
 					"base"
 				],
 				"filename": "char_242_otter"
+			},
+			{
+				"name": "庭院寻梦尖兵",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_242_otter_ghost_1"
 			}
 		]
 	},
@@ -1357,6 +1441,15 @@
 					"base"
 				],
 				"filename": "char_220_grani"
+			},
+			{
+				"name": "美妙时光",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_220_grani_epoque_6"
 			}
 		]
 	},
@@ -1398,6 +1491,15 @@
 					"base"
 				],
 				"filename": "char_326_glacus"
+			},
+			{
+				"name": "广场扫荡客",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_326_glacus_ghost_1"
 			}
 		]
 	},
@@ -1959,6 +2061,54 @@
 		]
 	},
 	{
+		"name": "ウィスラッシュ",
+		"rarity": "5",
+		"folder": "char_265_sophia",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_265_sophia"
+			}
+		]
+	},
+	{
+		"name": "アオスタ",
+		"rarity": "5",
+		"folder": "char_346_aosta",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_346_aosta"
+			}
+		]
+	},
+	{
+		"name": "ウィスパーレイン",
+		"rarity": "5",
+		"folder": "char_436_whispr",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_436_whispr"
+			}
+		]
+	},
+	{
 		"name": "クーリエ",
 		"rarity": "4",
 		"folder": "char_198_blackd",
@@ -2203,6 +2353,15 @@
 					"base"
 				],
 				"filename": "char_277_sqrrel"
+			},
+			{
+				"name": "古堡清洁专家",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_277_sqrrel_ghost_1"
 			}
 		]
 	},
@@ -2326,6 +2485,15 @@
 					"base"
 				],
 				"filename": "char_130_doberm"
+			},
+			{
+				"name": "少尉",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_130_doberm_epoque_7"
 			}
 		]
 	},
@@ -2586,6 +2754,15 @@
 					"base"
 				],
 				"filename": "char_355_ethan"
+			},
+			{
+				"name": "渗透",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_355_ethan_epoque_7"
 			}
 		]
 	},
@@ -2771,6 +2948,38 @@
 					"base"
 				],
 				"filename": "char_366_acdrop"
+			}
+		]
+	},
+	{
+		"name": "ジャッキー",
+		"rarity": "4",
+		"folder": "char_347_jaksel",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_347_jaksel"
+			}
+		]
+	},
+	{
+		"name": "バブル",
+		"rarity": "4",
+		"folder": "char_381_bubble",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_381_bubble"
 			}
 		]
 	},
