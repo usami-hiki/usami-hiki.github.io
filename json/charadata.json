@@ -863,6 +863,14 @@
 				"filename": "char_002_amiya"
 			},
 			{
+				"name": "前衛",
+				"type": [
+					"front",
+					"back"
+				],
+				"filename": "char_1001_amiya2"
+			},
+			{
 				"name": "新聞配達員",
 				"type": [
 					"front",
