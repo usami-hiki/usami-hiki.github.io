@@ -91,7 +91,7 @@ function LoadAnimation(animation_list, endloop = false, skipStart = false, isend
 	xhr.responseType = 'arraybuffer';
 	var array;
 
-	animation_list = CheckList(animation_list);
+//	animation_list = CheckList(animation_list);
 
 	xhr.onloadend = function(e) {
 		if (xhr.status != 404) {
@@ -124,6 +124,7 @@ function LoadAnimation(animation_list, endloop = false, skipStart = false, isend
 					var animIndex = 0;
 
 					animations = widget.skeleton.data.animations;
+					animation_list = CheckList(animation_list);
 					CreateAnimation(widget, animation_list, endloop, skipStart, isendstop);
 
 					InitActions(animations);
