@@ -3,8 +3,8 @@
  */
 $.holdReady(true);
 
-const anim_default = [ "Start", "Idle" ];
-const anim_default_o = [ {name : "Start"}, { name : "Idle"} ];
+const anim_default = [ "Start", "B_Start", "Idle" ];
+const anim_default_o = [ {name : "Start"}, {name : "B_Start"}, { name : "Idle"} ];
 const base_default = [ "Relax" ];
 const base_default_o = [ {name : "Relax"} ];
 
