@@ -287,6 +287,15 @@
 					"base"
 				],
 				"filename": "char_202_demkni_boc_1"
+			},
+			{
+				"name": "铁律",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_202_demkni_test_1"
 			}
 		]
 	},
@@ -492,6 +501,15 @@
 					"base"
 				],
 				"filename": "char_222_bpipe"
+			},
+			{
+				"name": "皇后一号",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_222_bpipe_race_1"
 			}
 		]
 	},
@@ -557,7 +575,16 @@
 					"back",
 					"base"
 				],
-				"filename": "char_400_weedy"
+				"filename": ""
+			},
+			{
+				"name": "糖果仙子",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_400_weedy_snow_2"
 			}
 		]
 	},
@@ -699,6 +726,38 @@
 		]
 	},
 	{
+		"name": "マウンテン",
+		"rarity": "6",
+		"folder": "char_264_f12yin",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_264_f12yin"
+			}
+		]
+	},
+	{
+		"name": "アルケット",
+		"rarity": "6",
+		"folder": "char_332_archet",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_332_archet"
+			}
+		]
+	},
+	{
 		"name": "サベージ",
 		"rarity": "5",
 		"folder": "char_230_savage",
@@ -820,6 +879,15 @@
 					"base"
 				],
 				"filename": "char_108_silent_sweep_1"
+			},
+			{
+				"name": "霜息",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_108_silent_winter_2"
 			}
 		]
 	},
@@ -1102,6 +1170,15 @@
 					"base"
 				],
 				"filename": "char_158_milu_wild_2"
+			},
+			{
+				"name": "覆雪",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_158_milu_snow_2"
 			}
 		]
 	},
@@ -1759,6 +1836,15 @@
 					"base"
 				],
 				"filename": "char_252_bibeak"
+			},
+			{
+				"name": "软绒",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_252_bibeak_winter_2"
 			}
 		]
 	},
@@ -1823,6 +1909,15 @@
 					"base"
 				],
 				"filename": "char_401_elysm"
+			},
+			{
+				"name": "雪夜回音",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_401_elysm_snow_2"
 			}
 		]
 	},
@@ -2117,6 +2212,54 @@
 		]
 	},
 	{
+		"name": "カフカ",
+		"rarity": "5",
+		"folder": "char_214_kafka",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_214_kafka"
+			}
+		]
+	},
+	{
+		"name": "アイリス",
+		"rarity": "5",
+		"folder": "char_338_iris",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_338_iris"
+			}
+		]
+	},
+	{
+		"name": "ロビン",
+		"rarity": "5",
+		"folder": "char_451_robin",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_451_robin"
+			}
+		]
+	},
+	{
 		"name": "クーリエ",
 		"rarity": "4",
 		"folder": "char_198_blackd",
@@ -2311,6 +2454,15 @@
 					"base"
 				],
 				"filename": "char_237_gravel"
+			},
+			{
+				"name": "模特之夜",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_237_gravel_winter_2"
 			}
 		]
 	},
@@ -2682,6 +2834,15 @@
 					"base"
 				],
 				"filename": "char_253_greyy"
+			},
+			{
+				"name": "八音蛋匠人",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_253_greyy_epoque_8"
 			}
 		]
 	},
@@ -2912,7 +3073,7 @@
 		]
 	},
 	{
-		"name": "アレアン",
+		"name": "アレーン",
 		"rarity": "4",
 		"folder": "char_271_spikes",
 		"coordinates": [
@@ -2924,6 +3085,15 @@
 					"base"
 				],
 				"filename": "char_271_spikes"
+			},
+			{
+				"name": "随性",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_271_spikes_winter_2"
 			}
 		]
 	},
@@ -2988,6 +3158,38 @@
 					"base"
 				],
 				"filename": "char_381_bubble"
+			}
+		]
+	},
+	{
+		"name": "パインコーン",
+		"rarity": "4",
+		"folder": "char_440_pinecn",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_440_pinecn"
+			}
+		]
+	},
+	{
+		"name": "ビーンストーク",
+		"rarity": "4",
+		"folder": "char_452_bstalk",
+		"coordinates": [
+			{
+				"name": "デフォルト",
+				"type": [
+					"front",
+					"back",
+					"base"
+				],
+				"filename": "char_452_bstalk"
 			}
 		]
 	},
